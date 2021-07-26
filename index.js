@@ -157,7 +157,7 @@ submitBtn.addEventListener('click', ()=>{
 
     else {
         quiz.innerHTML=`
-        <h1>You answered ${score}/5 questions correctly 🧙🏻‍♂️</h1>
+        <h1>You answered ${score}/10 questions correctly 🧙🏻‍♂️</h1>
         <button class= "btn green" onclick= 'location.reload()'>Try again</button>
         `;
     }
