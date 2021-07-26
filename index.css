@@ -60,7 +60,7 @@ label:hover {
 }
 
 input:checked ~ label {
-    color: red;
+    color: blue;
 }
 
 .btn {

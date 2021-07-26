@@ -49,6 +49,56 @@ const quizData= [
 
     },
 
+    {
+        question: 'What is Severus Snapes Patronus Charm?',
+        a: 'A doe',
+        b: 'A deer',
+        c: 'A beaver',
+        d: 'A snake',
+        correct: 'a',
+
+    },
+
+    {
+        question: 'What was the event in the Triwizard Tournament called which meant that male would dance with female?',
+        a: 'The Magic Ball',
+        b: 'The Charm Ball',
+        c: 'The Triwizard Ball',
+        d: 'The Yule Ball',
+        correct: 'd',
+
+    },
+
+    {
+        question: "What is Albus Dumbledore's brother called?",
+        a: 'Arthur',
+        b: 'Aberforth',
+        c: 'Aberfol',
+        d: 'Grindelwald',
+        correct: 'b',
+
+    },
+
+    {
+        question: 'What is the name of the girl ghost who haunts the female bathrooms and who died seeing the Basilisk?',
+        a: 'Haughty Hetty',
+        b: 'Scaredy-cat Sara',
+        c: 'Miserable Myrtle',
+        d: 'Moaning Myrtle',
+        correct: 'd',
+
+    },
+
+    {
+        question: 'Who murdered Albus Dumbledore?',
+        a: 'Draco Malfoy',
+        b: 'Bellatrix Lestrange',
+        c: 'Severus Snape',
+        d: 'Salazar Slytherin',
+        correct: 'c',
+
+    },
+
 ];
 
 const quiz = document.getElementById("Quiz");
