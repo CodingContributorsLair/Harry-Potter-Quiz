@@ -1,5 +1,11 @@
-## AvidCoder's Harry Potter Quiz
+## The CodingContributorsLair Harry Potter Quiz
 
-### This is a Harry Potter fan quiz that I have made. Please feel contribute, perhaps by adding some more questions, editing the README.md or adding any new features that I could consider adding?
+### This is a Harry Potter Quiz that was originally produced by [AvidCoder101](https://github.com/AvidCoder101). Give it a go and see how many you get correct at the end! 
 
-### Thanks for viewing, and give the quiz a go!
+## Want to contribute? Here's some ideas on what to do:
+
+* ### Add some questions
+* ### Improve the webpage
+* ### Improve the README.md
+
+### By contributing, you will benefit by perhaps recieving an invitation to our organization. Thanks!
