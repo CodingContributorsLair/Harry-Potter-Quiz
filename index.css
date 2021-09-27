@@ -68,3 +68,20 @@ input:checked ~ label {
   width: 450px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
+
+#progress {
+    width: 450px;
+    background-color: #ddd;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#bar {
+    width: 10%;
+    height: 30px;
+    background-color: #26a69a;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
