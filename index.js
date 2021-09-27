@@ -1,7 +1,7 @@
 const quizData = [
   {
     question:
-      "Easy one to start with : which house did Ronald Weasley get placed in?",
+      "Which house did Ronald Weasley get placed in?",
     a: "Ravenclaw",
     b: "Slytherin",
     c: "Gryffindor",
@@ -102,19 +102,44 @@ const aText = document.getElementById("aText");
 const bText = document.getElementById("bText");
 const cText = document.getElementById("cText");
 const dText = document.getElementById("dText");
-
+let tempArray = Array;
 let currentQuiz = 0;
 let score = 0;
 
-function loadQuiz() {
+
+function shuffleQuestions() {
+    let currentIndex = quizData.length, randomIndex;
+
+    while (currentIndex != 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [quizData[currentIndex], quizData[randomIndex]] = [quizData[randomIndex], quizData[currentIndex]];
+    }   
+}
+
+function shuffleAnswers(array) {
+    let currentIndex = array.length, randomIndex;
+
+    while (currentIndex != 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
+
+shuffleQuestions();
+
+function loadQuiz() {    
   deSelectAnswers();
   const currentQuizData = quizData[currentQuiz];
   question.innerText = currentQuizData.question;
 
-  aText.innerText = currentQuizData.a;
-  bText.innerText = currentQuizData.b;
-  cText.innerText = currentQuizData.c;
-  dText.innerText = currentQuizData.d;
+  tempArray = shuffleAnswers([currentQuizData.a, currentQuizData.b, currentQuizData.c, currentQuizData.d])
+  aText.innerText = tempArray[0];
+  bText.innerText = tempArray[1];
+  cText.innerText = tempArray[2];
+  dText.innerText = tempArray[3];
 }
 loadQuiz();
 
@@ -125,28 +150,47 @@ function deSelectAnswers() {
 }
 
 function getSelected() {
-  let answer;
+    let answer = "";
 
-  answers.forEach((answers) => {
-    if (answers.checked) {
-      answer = answers.id;
-    }
-  });
+    answers.forEach((answers) => {
+        if (answers.checked) {  
+            if (answers.id === "a") {
+                answer = tempArray[0];
+            }
+            else if (answers.id === "b") {
+                answer = tempArray[1];
+            }
+            else if (answers.id === "c") {
+                answer = tempArray[2];
+            }
+            else if (answers.id === "d") {
+                answer = tempArray[3];
+            }
+            
+        }
+    });
+    
   return answer;
 }
 
 const submitBtn = document.getElementById("submitBtn");
 submitBtn.addEventListener("click", () => {
   const answer = getSelected();
-
-  if (answer === quizData[currentQuiz].correct) {
+  
+  if (answer === quizData[currentQuiz][quizData[currentQuiz].correct]) {
+      
     score++;
   }
-
+    
   currentQuiz++;
 
   if (currentQuiz < quizData.length) {
-    loadQuiz();
+      if (answer.length == 0) {
+          alert("Please Select your answer");
+          currentQuiz--;
+      }
+      loadQuiz();
+      nextQuestion();
   } else {
     quiz.innerHTML = `
         <h1>You answered ${score}/10 questions correctly 🧙🏻‍♂️</h1>
@@ -154,3 +198,14 @@ submitBtn.addEventListener("click", () => {
         `;
   }
 });
+
+
+function nextQuestion() {
+    
+    var elem = document.getElementById("bar");
+    var width = 10 * (currentQuiz+1);                
+           
+    elem.style.width = width + "%";
+    elem.innerHTML = width + "%";  
+    
+}
