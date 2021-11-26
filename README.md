@@ -5,7 +5,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-### This is a Harry Potter Quiz that was originally produced by [AvidCoder101](https://github.com/AvidCoder101). Give it a go and see how many you get correct at the end! 
+### This is a Harry Potter Quiz that was originally produced by [AvidCoder101](https://github.com/AvidCoder101). Give it a go and see how many you get correct at the end. You can also contribute by creating different versions of this quiz if you would like, and go to our ideas repo and follow the steps so that we could make a repository which showcases your code.
 
 ## How to contribute:
 
