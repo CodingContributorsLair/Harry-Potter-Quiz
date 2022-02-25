@@ -8,6 +8,9 @@
 ### This is a Harry Potter Quiz that was originally produced by [AvidCoder101](https://github.com/AvidCoder101). You can try it out and contribute to it by, for example, improving it, or, if you want, go to the Ideas Repository and make your own. Remember, contributing to any of our repos = invitation.
 ## How to contribute:
 
+### Prerequisites:
+### • Git/Git Bash
+
 ### 1. Fork the repository :
 
 ![image of forking](https://user-images.githubusercontent.com/70807684/126146920-35e7b080-cf1d-4e85-80da-9f0640e4224f.png)
