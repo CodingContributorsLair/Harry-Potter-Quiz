@@ -23,7 +23,7 @@ body {
 	height: 100vh;
 	margin: auto;
 	text-align: center;
-	background: url("https://c4.wallpaperflare.com/wallpaper/582/1022/574/harry-potter-hogwarts-castle-hd-wallpaper-preview.jpg");
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/582/1022/574/harry-potter-hogwarts-castle-hd-wallpaper-preview.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

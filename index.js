@@ -192,6 +192,7 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
       nextQuestion();
   } else {
+    document.querySelector('body').style.backgroundImage='url(https://i.pinimg.com/736x/b2/d1/ae/b2d1ae4368c810255c2fecf82dba77c9.jpg)'
     quiz.innerHTML = `
         <h1>You answered ${score}/10 questions correctly 🧙🏻‍♂️</h1>
         <button class= "btn green" onclick= 'location.reload()'>Try again</button>
