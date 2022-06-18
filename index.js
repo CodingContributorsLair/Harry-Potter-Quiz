@@ -19,7 +19,7 @@ const quizData = [
   },
 
   {
-    question: "Who killed Sirius Black so that he fell into the Veil?",
+    question: "Who killed Sirius Black before he fell into the Veil?",
     a: "Lucius Malfoy",
     b: "Lord Voldemort",
     c: "Draco Malfoy",
@@ -39,7 +39,7 @@ const quizData = [
 
   {
     question:
-      "Which position did Hermione Granger play when they played the giant game of chess in her first year?",
+      "Which position did Hermione Granger play in the giant game of chess in her first year?",
     a: "Pawn",
     b: "Bishop",
     c: "Castle",
@@ -48,7 +48,7 @@ const quizData = [
   },
 
   {
-    question: "What is Severus Snapes Patronus Charm?",
+    question: "What is Severus Snape's Patronus?",
     a: "A doe",
     b: "A deer",
     c: "A beaver",
@@ -58,7 +58,7 @@ const quizData = [
 
   {
     question:
-      "What was the event in the Triwizard Tournament called which meant that male would dance with female?",
+      "What was the name of event in the Triwizard Tournament in which students would dance with their partners?",
     a: "The Magic Ball",
     b: "The Charm Ball",
     c: "The Triwizard Ball",
@@ -67,17 +67,17 @@ const quizData = [
   },
 
   {
-    question: "What is Albus Dumbledore's brother called?",
+    question: "What was the name of Albus Dumbledore's brother?",
     a: "Arthur",
-    b: "Aberforth",
-    c: "Aberfol",
+    b: "Abeforth",
+    c: "Ariana",
     d: "Grindelwald",
     correct: "b",
   },
 
   {
     question:
-      "What is the name of the girl ghost who haunts the female bathrooms and who died seeing the Basilisk?",
+      "What is the name of the girl ghost who haunts the female bathrooms and died seeing the Basilisk?",
     a: "Haughty Hetty",
     b: "Scaredy-cat Sara",
     c: "Miserable Myrtle",
@@ -86,7 +86,7 @@ const quizData = [
   },
 
   {
-    question: "Who murdered Albus Dumbledore?",
+    question: "Who killed Albus Dumbledore?",
     a: "Draco Malfoy",
     b: "Bellatrix Lestrange",
     c: "Severus Snape",
@@ -192,6 +192,7 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
       nextQuestion();
   } else {
+    document.querySelector('body').style.backgroundImage='url(https://i.pinimg.com/736x/b2/d1/ae/b2d1ae4368c810255c2fecf82dba77c9.jpg)'
     quiz.innerHTML = `
         <h1>You answered ${score}/10 questions correctly 🧙🏻‍♂️</h1>
         <button class= "btn green" onclick= 'location.reload()'>Try again</button>
