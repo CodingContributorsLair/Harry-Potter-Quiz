@@ -93,6 +93,132 @@ const quizData = [
     d: "Salazar Slytherin",
     correct: "c",
   },
+
+  {
+    question: "When Dumbledore collected Harry from the Dursleys, what drink did he give them?",
+    a: "Butterbeer",
+    b: "Firewhisky",
+    c: "Oak-matured mead",
+    d: "Pumpkin juice",
+    correct: "c",
+  },
+
+  {
+    question: "What was the name of only book that Hermoine could find that mentioned Horcruxes?",
+    a: "Secrets of the Darkest Arts",
+    b: "Magick Moste Evile",
+    c: "Moste Potente Potions",
+    d: "Olde and Forgotten Bewitchments and Charms",
+    correct: "b",
+  },
+
+  {
+    question: "What was the name of the Department of Magical Law Enforcement employee whose memory Harry saw in the Pensieve?",
+    a: "Bob Ogden",
+    b: "Bertram Oakden",
+    c: "Jasper Ocken",
+    d: "Colin Ogilvy",
+    correct: "a",
+  },
+
+  {
+    question: "A poster for what product was displayed in the window of Weasleys' Wizard Wheezes?",
+    a: "Skiving Snackboxes",
+    b: "U-No-Poo",
+    c: "Decoy Detonator",
+    d: "Pygmy Puffs",
+    correct: "b",
+  },
+
+  {
+    question: "What was the name of Severus Snape's mother?",
+    a: "Eliza Hinch",
+    b: "Elsie King",
+    c: "Eileen Prince",
+    d: "Ellen Finch",
+    correct: "c",
+  },
+
+  {
+    question: "What was Lavender Brown's nickname for Ron?",
+    a: "My Wonnykins",
+    b: "Little Wonkins",
+    c: "Wonny",
+    d: "Won-Won",
+    correct: "d",
+  },
+
+  {
+    question: "Who was the matron at the orphanage that Tom Riddle grew up in?",
+    a: "Mrs. Cole",
+    b: "Ms. Tomkins",
+    c: "Miss Babbage",
+    d: "Mrs. Jones",
+    correct: "a",
+  },
+  
+  {
+    question: "What were the initials of the person who had stolen the real Horcrux from the cave?",
+    a: "S.B.",
+    b: "H.J.P.",
+    c: "R.A.B.",
+    d: "A.P.W.B.D.",
+    correct: "c",
+  },
+  
+  {
+    question: "What was the name of Barty Crouch's house-elf?",
+    a: "Dobby",
+    b: "Hokey",
+    c: "Kreacher",
+    d: "Winky",
+    correct: "d",
+  },
+  
+  {
+    question: "What creature did Barty Crouch Jr. posing as Professor Moody turn Draco into?",
+    a: "Rat",
+    b: "Ferret",
+    c: "Weasel",
+    d: "Vole",
+    correct: "b",
+  },
+  
+  {
+    question: "What was the name of the Riddle family's gardener who was murdered?",
+    a: "Reggie Wilson",
+    b: "Gary Green",
+    c: "Frank Bryce",
+    d: "Colin Brown",
+    correct: "c",
+  },
+  
+  {
+    question: "What did Hermione discover Rita Skeeter's unregistered Animagus form was?",
+    a: "Ladybird",
+    b: "Beetle",
+    c: "Cockroach",
+    d: "Butterfly",
+    correct: "b",
+  },
+  
+  {
+    question: "What was the answer to the Sphinx's riddle that Harry had to answer in the third task?",
+    a: "Lion",
+    b: "Time",
+    c: "Circle",
+    d: "Spider",
+    correct: "d",
+  },
+  
+  {
+    question: "What item of clothing did Dobby receive which set him free?",
+    a: "Sock",
+    b: "Wooly Jumper",
+    c: "Scarf",
+    d: "Hat",
+    correct: "a",
+  },
 ];
 
 const quiz = document.getElementById("Quiz");
