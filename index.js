@@ -320,7 +320,7 @@ submitBtn.addEventListener("click", () => {
   } else {
     document.querySelector('body').style.backgroundImage='url(https://i.pinimg.com/736x/b2/d1/ae/b2d1ae4368c810255c2fecf82dba77c9.jpg)'
     quiz.innerHTML = `
-        <h1>You answered ${score}/10 questions correctly 🧙🏻‍♂️</h1>
+        <h1>You answered ${score}/24 questions correctly 🧙🏻‍♂️</h1>
         <button class= "btn green" onclick= 'location.reload()'>Try again</button>
         `;
   }
@@ -330,7 +330,7 @@ submitBtn.addEventListener("click", () => {
 function nextQuestion() {
     
     var elem = document.getElementById("bar");
-    var width = 10 * (currentQuiz+1);                
+    var width = 24 * (currentQuiz+1);                
            
     elem.style.width = width + "%";
     elem.innerHTML = width + "%";  
