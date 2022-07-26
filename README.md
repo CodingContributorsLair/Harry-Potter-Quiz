@@ -1,11 +1,11 @@
-## The CodingContributorsLair Harry Potter Quiz!
+## CodingContributorsLair Basic-Mini-Apps - Harry Potter Quiz
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-### This is a Harry Potter Quiz that was originally produced by [AvidCoder101](https://github.com/AvidCoder101). You can try it out and contribute to it by, for example, improving it, or, if you want, go to the Ideas Repository and make your own. Remember, contributing to any of our repos = invitation.
+### This is a Harry Potter Quiz originally produced by [AvidCoder101](https://github.com/AvidCoder101). You can try it out and contribute to it by, for example, improving it. Remember, contributing to any of our repos = invitation.
 ## How to contribute:
 
 ### Prerequisites:
