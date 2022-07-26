@@ -1,6 +1,6 @@
 ## The CodingContributorsLair Harry Potter Quiz!
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
@@ -86,6 +86,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/kmertzim"><img src="https://avatars.githubusercontent.com/u/32485861?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kmertzim</b></sub></a><br /><a href="#content-kmertzim" title="Content">🖋</a></td>
     <td align="center"><a href="https://akshatmittal61.github.io"><img src="https://avatars.githubusercontent.com/u/84612609?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akshat Mittal</b></sub></a><br /><a href="#content-akshatmittal61" title="Content">🖋</a></td>
+    <td align="center"><a href="https://snehasharma1111.github.io"><img src="https://avatars.githubusercontent.com/u/92130285?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sneha Sharma</b></sub></a><br /><a href="#content-snehasharma1111" title="Content">🖋</a></td>
   </tr>
 </table>
 
